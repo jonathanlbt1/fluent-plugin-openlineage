@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3" />
+    <orderEntry type="jdk" jdkName="ruby-3.3.3-p89" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="activesupport (v7.1.3.4) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="activesupport" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4" />
+          <option name="version" value="7.1.3.4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="base64 (v0.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="base64" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0" />
+          <option name="version" value="0.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="benchmark-memory (v0.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="benchmark-memory" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/benchmark-memory-0.2.0" />
+          <option name="version" value="0.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/benchmark-memory-0.2.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/benchmark-memory-0.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bigdecimal (v3.1.8) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="bigdecimal" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8" />
+          <option name="version" value="3.1.8" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/sample" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/sample" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/sample" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent-ruby (v1.3.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="concurrent-ruby" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3" />
+          <option name="version" value="1.3.3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.3/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="connection_pool (v2.4.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="connection_pool" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/connection_pool-2.4.1" />
+          <option name="version" value="2.4.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/connection_pool-2.4.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/connection_pool-2.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="diff-lcs (v1.5.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="diff-lcs" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1" />
+          <option name="version" value="1.5.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/docs" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.5.1/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="drb (v2.2.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="drb" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/drb-2.2.1" />
+          <option name="version" value="2.2.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/drb-2.2.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/drb-2.2.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="i18n (v1.14.5) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="i18n" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/i18n-1.14.5" />
+          <option name="version" value="1.14.5" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/i18n-1.14.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/i18n-1.14.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (v2.7.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="json" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2" />
+          <option name="version" value="2.7.2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="memory_profiler (v1.0.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="memory_profiler" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2" />
+          <option name="version" value="1.0.2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/memory_profiler-1.0.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="minitest (v5.24.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="minitest" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1" />
+          <option name="version" value="5.24.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/minitest-5.24.1/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mutex_m (v0.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="mutex_m" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/mutex_m-0.2.0" />
+          <option name="version" value="0.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/mutex_m-0.2.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/mutex_m-0.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (v13.2.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rake" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1" />
+          <option name="version" value="13.2.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake-compiler (v1.2.7) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rake-compiler" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7" />
+          <option name="version" value="1.2.7" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/features" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/features" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec (v3.13.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rspec" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-3.13.0" />
+          <option name="version" value="3.13.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-3.13.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-3.13.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-core (v3.13.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rspec-core" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0" />
+          <option name="version" value="3.13.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.0/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-expectations (v3.13.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rspec-expectations" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-expectations-3.13.1" />
+          <option name="version" value="3.13.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-expectations-3.13.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-expectations-3.13.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-mocks (v3.13.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rspec-mocks" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-mocks-3.13.1" />
+          <option name="version" value="3.13.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-mocks-3.13.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-mocks-3.13.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-support (v3.13.1) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rspec-support" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-support-3.13.1" />
+          <option name="version" value="3.13.1" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-support-3.13.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/rspec-support-3.13.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tzinfo (v2.0.6) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="tzinfo" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/tzinfo-2.0.6" />
+          <option name="version" value="2.0.6" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/tzinfo-2.0.6/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/vendor/bundle/ruby/3.3.0/gems/tzinfo-2.0.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.16, ruby-3.3.3-p89) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache-v2">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated files" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Compile all the extensions" fullCommand="compile" id="compile" />
+          <RakeTaskImpl id="compile">
+            <subtasks>
+              <RakeTaskImpl description="Compile yajl" fullCommand="compile:yajl" id="yajl" />
+              <RakeTaskImpl description="" fullCommand="compile:x64-mingw-ucrt" id="x64-mingw-ucrt" />
+              <RakeTaskImpl id="yajl">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="compile:yajl:x64-mingw-ucrt" id="x64-mingw-ucrt" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run RSpec code examples" fullCommand="spec" id="spec" />
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="Run all examples with RCov" fullCommand="spec:rcov" id="rcov" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="copy">
+            <subtasks>
+              <RakeTaskImpl id="yajl">
+                <subtasks>
+                  <RakeTaskImpl id="x64-mingw-ucrt">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="copy:yajl:x64-mingw-ucrt:3.3.4" id="3.3.4" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="cross" id="cross" />
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="lib" id="lib" />
+          <RakeTaskImpl description="" fullCommand="lib/yajl" id="lib/yajl" />
+          <RakeTaskImpl description="" fullCommand="lib/yajl/yajl.rb" id="lib/yajl/yajl.rb" />
+          <RakeTaskImpl description="" fullCommand="lib/yajl/yajl.so" id="lib/yajl/yajl.so" />
+          <RakeTaskImpl description="" fullCommand="native" id="native" />
+          <RakeTaskImpl id="native">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="native:x64-mingw-ucrt" id="x64-mingw-ucrt" />
+              <RakeTaskImpl description="" fullCommand="native:yajl-ruby" id="yajl-ruby" />
+              <RakeTaskImpl id="yajl-ruby">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="native:yajl-ruby:x64-mingw-ucrt" id="x64-mingw-ucrt" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="tmp" id="tmp" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt" id="tmp/x64-mingw-ucrt" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage" id="tmp/x64-mingw-ucrt/stage" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/ext" id="tmp/x64-mingw-ucrt/stage/ext" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/ext/yajl" id="tmp/x64-mingw-ucrt/stage/ext/yajl" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/ext/yajl/extconf.rb" id="tmp/x64-mingw-ucrt/stage/ext/yajl/extconf.rb" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/lib" id="tmp/x64-mingw-ucrt/stage/lib" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/lib/yajl" id="tmp/x64-mingw-ucrt/stage/lib/yajl" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/stage/lib/yajl/yajl.so" id="tmp/x64-mingw-ucrt/stage/lib/yajl/yajl.so" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/yajl" id="tmp/x64-mingw-ucrt/yajl" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/yajl/3.3.4" id="tmp/x64-mingw-ucrt/yajl/3.3.4" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/yajl/3.3.4/Makefile" id="tmp/x64-mingw-ucrt/yajl/3.3.4/Makefile" />
+          <RakeTaskImpl description="" fullCommand="tmp/x64-mingw-ucrt/yajl/3.3.4/yajl.so" id="tmp/x64-mingw-ucrt/yajl/3.3.4/yajl.so" />
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>

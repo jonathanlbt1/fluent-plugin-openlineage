@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/drb-2.2.1" />
+    <orderEntry type="jdk" jdkName="ruby-3.3.3-p89" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>
