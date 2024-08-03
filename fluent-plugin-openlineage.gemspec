@@ -2,7 +2,7 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = "fluentd-openlineage-parser"
+  spec.name    = "fluent-plugin-openlineage"
   spec.version = "0.1.0"
   spec.authors = ["Pawel Leszczynski"]
   spec.email   = ["leszczynski.pawel@gmail.com"]

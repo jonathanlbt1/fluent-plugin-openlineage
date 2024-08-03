@@ -1,5 +1,5 @@
 require "helper"
-require "fluent/plugin/parser_openlineage.rb"
+require "lib/fluent/plugin/parser_openlineage.rb"
 
 class OpenlineageParserTest < Test::Unit::TestCase
   setup do
@@ -11,7 +11,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
  test "test event with no runId" do
-   ol_event = File.read("events/event_no_run_id.json")
+   ol_event = File.read("spec/events/event_no_run_id.json")
 
    err = assert_raise Fluent::ParserError do
      @parser.instance.parse(ol_event)
@@ -26,7 +26,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "event full test" do
-    ol_event = File.read("events/event_full.json")
+    ol_event = File.read("spec/events/event_full.json")
     @parser.instance.parse(ol_event) { | time, json |
        assert_equal("ea041791-68bc-4ae1-bd89-4c8106a157e4", json['run']['runId'])
        assert_equal(2000, json['outputs'][0]['outputFacets']['outputStatistics']['rowCount'])
@@ -34,7 +34,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "event simple test" do
-    ol_event = File.read("events/event_simple.json")
+    ol_event = File.read("spec/events/event_simple.json")
     @parser.instance.parse(ol_event) { | time, json |
       assert_equal("41fb5137-f0fd-4ee5-ba5c-56f8571d1bd7", json['run']['runId'])
     }
@@ -52,14 +52,14 @@ class OpenlineageParserTest < Test::Unit::TestCase
     @parser.configure(
       'spec_directory' => '../../spec'
     )
-    ol_event = File.read("events/event_simple.json")
+    ol_event = File.read("spec/events/event_simple.json")
     @parser.instance.parse(ol_event) { | time, json |
       assert_equal("41fb5137-f0fd-4ee5-ba5c-56f8571d1bd7", json['run']['runId'])
     }
   end
 
   test "run facet validation" do
-    ol_event = File.read("events/event_invalid_run_facet.json")
+    ol_event = File.read("spec/events/event_invalid_run_facet.json")
     err = assert_raise Fluent::ParserError do
       @parser.instance.parse(ol_event)
     end
@@ -67,7 +67,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "run facet validation turned off" do
-    ol_event = File.read("events/event_invalid_run_facet.json")
+    ol_event = File.read("spec/events/event_invalid_run_facet.json")
     @parser.configure(
       'spec_directory' => '../../spec/',
       'validate_run_facets' => false,
@@ -78,7 +78,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "job facet validation" do
-    ol_event = File.read("events/event_invalid_job_facet.json")
+    ol_event = File.read("spec/events/event_invalid_job_facet.json")
     err = assert_raise Fluent::ParserError do
       @parser.instance.parse(ol_event)
     end
@@ -86,7 +86,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "job facet validation turned off" do
-    ol_event = File.read("events/event_invalid_job_facet.json")
+    ol_event = File.read("spec/events/event_invalid_job_facet.json")
     @parser.configure(
       'spec_directory' => '../../spec/',
       'validate_job_facets' => false,
@@ -97,7 +97,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "dataset facet validation" do
-    ol_event = File.read("events/event_invalid_dataset_facet.json")
+    ol_event = File.read("spec/events/event_invalid_dataset_facet.json")
     @parser.configure(
       'spec_directory' => '../../spec/',
       'validate_dataset_facets' => true,
@@ -109,7 +109,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "input dataset facet validation" do
-    ol_event = File.read("events/event_invalid_input_dataset_facet.json")
+    ol_event = File.read("spec/events/event_invalid_input_dataset_facet.json")
      @parser.configure(
       'json_parser' => 'yajl',
       'spec_directory' => '../../spec/',
@@ -122,7 +122,7 @@ class OpenlineageParserTest < Test::Unit::TestCase
   end
 
   test "output dataset facet validation" do
-    ol_event = File.read("events/event_invalid_output_dataset_facet.json")
+    ol_event = File.read("spec/events/event_invalid_output_dataset_facet.json")
     @parser.configure(
       'spec_directory' => '../../spec/',
       'validate_output_dataset_facets' => true,
