@@ -36,7 +36,8 @@ fluentd-plugin-openlineage include only one plugin.
 
 - `openlineage` parse plugin
 
-## Why are Fluentd and Openlineage a perfect match?
+## Why are Fluentd and Openlineage a perfect match? 
+### This is part of the OpenLineage Project repository at: https://github.com/OpenLineage/OpenLineage/tree/main/proxy/fluentd
 
 Modern data collectors (Fluentd, Logstash, Vector, etc.) can be extremely useful when designing
 production-grade architectures for processing Openlineage events.
