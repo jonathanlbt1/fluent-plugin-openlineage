@@ -1,5 +1,5 @@
 # Fluent-plugin-openlineage, a plugin for [Fluentd](https://www.fluentd.org)
-[![Build Status](https://badge.fury.io/rb/fluent-plugin-openlineage.svg?branch=main)](https://badge.fury.io/rb/fluent-plugin-openlineage.svg)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-openlineage.svg)](https://badge.fury.io/rb/fluent-plugin-openlineage)
 
 fluent-plugin-openlineage is a Fluentd plugin that verifies if a JSON matches the OpenLineage schema. 
 It is intended to be used together with a [Fluentd Application](https://github.com/fluent/fluentd).
