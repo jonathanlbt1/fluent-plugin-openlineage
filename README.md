@@ -1,8 +1,42 @@
-# Fluentd and Openlineage
+# Fluent-plugin-openlineage, a plugin for [Fluentd](https://www.fluentd.org)
+[![Build Status](https://badge.fury.io/rb/fluent-plugin-openlineage.svg?branch=main)](https://badge.fury.io/rb/fluent-plugin-openlineage.svg)
+
+fluent-plugin-openlineage is a Fluentd plugin that verifies if a JSON matches the OpenLineage schema. 
+It is intended to be used together with a [Fluentd Application](https://github.com/fluent/fluentd).
+
+## Requirements
+
+| fluent-plugin-prometheus | fluentd    | ruby   |
+|--------------------------|------------|--------|
+| 1.x.y                    | >= v1.9.1  | >= 2.4 |
+| 1.[0-7].y                | >= v0.14.8 | >= 2.1 |
+| 0.x.y                    | >= v0.12.0 | >= 1.9 |
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'fluent-plugin-openlineage'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself using one of the following:
+
+    $ gem install fluent-plugin-openlineage
+
+    $ fluent-gem install fluent-plugin-openlineage
+
+## Usage
+
+fluentd-plugin-openlineage include only one plugin.
+
+- `openlineage` parse plugin
 
 ## Why are Fluentd and Openlineage a perfect match?
-
-**Fluentd support is experimental and could be changed or removed in a future release.**
 
 Modern data collectors (Fluentd, Logstash, Vector, etc.) can be extremely useful when designing
 production-grade architectures for processing Openlineage events.
@@ -84,14 +118,6 @@ To clean up, run
 docker-compose down
 ```
 
-## Deployment on Kubernetes
-
-***Section under construction***
-
-## Parser plugin
-
-Openlineage-parser is a Fluentd plugin that verifies if a JSON matches the OpenLineage schema.
-
 ### Configuration
 
 Although Openlineage event is specified according to Json-Schema, its real-life validation may
@@ -122,20 +148,19 @@ bundle exec rake test
 
 #### Installation
 
-The easiest way to install the plugin is to install external packages:
+The easiest way to install the plugin is to install the main application Fluentd and along with it, these external packages for example in a Dockerfile:
 * `rusty_json_schema` installs a JSON validation library for Rust,
 * `fluent-plugin-out-http` allows non-bulk HTTP out requests (sending each OpenLineage event in a separate request).
 ```shell
 fluent-gem install rusty_json_schema
 fluent-gem install fluent-plugin-out-http
+fluent-gem install fluent-plugin-openlineage
 ```
-Once the external dependencies are installed, a single Ruby code file `parser_openlineage.rb` needs
-to be copied into the Fluentd plugins directory ([installing custom plugin](https://docs.fluentd.org/plugin-development#installing-custom-plugins)).
 
 ## Fluentd proxy setup
-### Monitoring with Prometheus
+### Monitoring with Prometheus and some other configs you can try by running a separate fluent.conf file
 
-The information above, provided you with valuable information on how to use this plugin (Yes, this is a plugin, you will still need the main Fluentd application to run it!), you may also want to check how Fluentd application itself is doing using Prometheus and for that, you may want to add the plugin: fluent-plugin-prometheus at https://github.com/fluent/fluent-plugin-prometheus and include the following setup in your prometheus.yml file:
+You may also want to check how Fluentd application itself is doing using Prometheus and for that, you may want to add the plugin: fluent-plugin-prometheus at https://github.com/fluent/fluent-plugin-prometheus and include the following setup in your prometheus.yml file:
 
 ```yml
 global:
@@ -219,5 +244,6 @@ You may also want to include the following additional parameters to your fluent.
   </labels>
 </source>
 ```
+### You can check the docker file for some other examples related to configurations
 
 For any additional information, you can check out Fluentd official documentation on https://docs.fluentd.org/monitoring-fluentd/monitoring-prometheus#example-prometheus-queries# fluentd-openlineage-parser
