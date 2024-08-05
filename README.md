@@ -184,7 +184,6 @@ You may also want to include the following additional parameters to your fluent.
   bind 0.0.0.0
   port 24224
 </source>
-
 #### count the number of incoming records per tag
 <filter company.*>
   @type prometheus
@@ -198,11 +197,9 @@ You may also want to include the following additional parameters to your fluent.
     </labels>
   </metric>
 </filter>
-
 #### count the number of outgoing records per tag
 <match company.*>
   @type copy
-
   <store>
     @type forward
     <server>
@@ -212,7 +209,6 @@ You may also want to include the following additional parameters to your fluent.
       weight 60
     </server>
   </store>
-
   <store>
     @type prometheus
     <metric>
@@ -225,18 +221,14 @@ You may also want to include the following additional parameters to your fluent.
       </labels>
     </metric>
   </store>
-
 </match>
-
 #### expose metrics in prometheus format
-
 <source>
   @type prometheus
   bind 0.0.0.0
   port 24231
   metrics_path /metrics
 </source>
-
 <source>
   @type prometheus_output_monitor
   interval 10
