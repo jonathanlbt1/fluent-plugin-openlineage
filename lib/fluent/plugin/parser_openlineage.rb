@@ -40,10 +40,31 @@ module Fluent
 
       private
 
+      # Check if json contains null values in paths
+      def contains_null_values?(json, paths)
+        validate_required_fields(json)
+        paths.any? { |path| json.dig(*path.split('/')) == nil }
+      end
+      # Check if json contains required fields
+      def validate_required_fields(json)
+        required_fields = ["producer", "eventTime", "schemaURL", "eventType", "run", "job"]
+        missing_fields = required_fields.select do |field|
+          value = json[field]
+          value.nil? || value.empty?
+        end
+        unless missing_fields.empty?
+          raise ParserError, "Openlineage validation failed: invalid json provided", 422
+        end
+      end
 
       def validate_openlineage(json)
         if json == nil
           raise ParserError, "Openlineage validation failed: invalid json provided"
+        end
+
+        # Check if json contains required fields
+        if contains_null_values?(json, ["RunEvent", "DatasetEvent", "JobEvent"])
+          return
         end
 
         # https://github.com/driv3r/rusty_json_schema
