@@ -1,0 +1,16 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-gajjwf sitelibdir\=./.gem.20240813-20596-gajjwf clean
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-gajjwf sitelibdir\=./.gem.20240813-20596-gajjwf
+make: Nothing to be done for 'all'.
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-gajjwf sitelibdir\=./.gem.20240813-20596-gajjwf install
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-gajjwf sitelibdir\=./.gem.20240813-20596-gajjwf clean

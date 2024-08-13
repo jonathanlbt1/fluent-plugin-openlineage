@@ -1,0 +1,34 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rusty_json_schema-0.15.0/ext
+C:/Ruby33-x64/bin/ruby.exe -rrubygems D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe/rake RUBYARCHDIR\=D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/extensions/x64-mingw-ucrt/3.3.0/rusty_json_schema-0.15.0 RUBYLIBDIR\=D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/extensions/x64-mingw-ucrt/3.3.0/rusty_json_schema-0.15.0
+rake aborted!
+LoadError: cannot load such file -- racc/parser.rb (LoadError)
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/tomlrb-1.3.0/lib/tomlrb/generated_parser.rb:7:in `<top (required)>'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/tomlrb-1.3.0/lib/tomlrb/parser.rb:1:in `<top (required)>'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/tomlrb-1.3.0/lib/tomlrb.rb:6:in `<top (required)>'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/thermite-0.13.0/lib/thermite/config.rb:22:in `<top (required)>'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/thermite-0.13.0/lib/thermite/tasks.rb:23:in `<top (required)>'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:141:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:141:in `rescue in require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:135:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rusty_json_schema-0.15.0/ext/Rakefile:3:in `<top (required)>'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe/rake:27:in `<main>'
+
+Caused by:
+LoadError: cannot load such file -- thermite/tasks (LoadError)
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+<internal:C:/Ruby33-x64/lib/ruby/site_ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:136:in `require'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rusty_json_schema-0.15.0/ext/Rakefile:3:in `<top (required)>'
+D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/rake-13.2.1/exe/rake:27:in `<main>'
+(See full trace by running task with --trace)
+
+rake failed, exit code 1

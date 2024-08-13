@@ -7,9 +7,5 @@
     <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7" />
     <orderEntry type="jdk" jdkName="ruby-3.3.3-p89" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.16, ruby-3.3.3-p89) [gem]" level="application" />
-  </component>
-  <component name="RubyModuleProperties">
-    <option name="autoCreated" value="true" />
   </component>
 </module>

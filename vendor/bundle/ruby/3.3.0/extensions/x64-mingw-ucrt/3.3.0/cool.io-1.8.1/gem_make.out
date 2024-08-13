@@ -1,0 +1,23 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/cool.io-1.8.1/ext/iobuffer
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for rb_io_descriptor()... yes
+checking for main() in -lc... no
+checking for HAVE_RB_IO_T in ruby/io.h... yes
+checking for rb_io_t.fd in ruby/io.h... yes
+creating Makefile
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/cool.io-1.8.1/ext/iobuffer
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-yofwpw sitelibdir\=./.gem.20240813-20596-yofwpw clean
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/cool.io-1.8.1/ext/iobuffer
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-yofwpw sitelibdir\=./.gem.20240813-20596-yofwpw
+generating iobuffer_ext-x64-mingw-ucrt.def
+compiling iobuffer.c
+linking shared-object iobuffer_ext.so
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/cool.io-1.8.1/ext/iobuffer
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-yofwpw sitelibdir\=./.gem.20240813-20596-yofwpw install
+/usr/bin/install -c -m 0755 iobuffer_ext.so ./.gem.20240813-20596-yofwpw
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/cool.io-1.8.1/ext/iobuffer
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-yofwpw sitelibdir\=./.gem.20240813-20596-yofwpw clean

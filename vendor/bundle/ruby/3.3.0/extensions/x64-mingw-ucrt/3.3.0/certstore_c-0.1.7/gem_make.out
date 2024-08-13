@@ -1,0 +1,23 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/ext/certstore
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for -lcrypt32... yes
+checking for PFXExportCertStoreEx() in Wincrypt.h... yes
+creating Makefile
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/ext/certstore
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-5lp47q sitelibdir\=./.gem.20240813-20596-5lp47q clean
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/ext/certstore
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-5lp47q sitelibdir\=./.gem.20240813-20596-5lp47q
+generating certstore-x64-mingw-ucrt.def
+compiling certstore.c
+compiling certstore_util.c
+compiling loader.c
+linking shared-object certstore/certstore.so
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/ext/certstore
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-5lp47q sitelibdir\=./.gem.20240813-20596-5lp47q install
+/usr/bin/install -c -m 0755 certstore.so ./.gem.20240813-20596-5lp47q/certstore
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/ext/certstore
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-5lp47q sitelibdir\=./.gem.20240813-20596-5lp47q clean

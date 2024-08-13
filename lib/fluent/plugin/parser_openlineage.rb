@@ -2,13 +2,13 @@ require "fluent/plugin/parser"
 require 'fluent/plugin/parser_json'
 require 'json'
 require "rusty_json_schema"
-
 module Fluent
   module Plugin
     class OpenlineageParser < Fluent::Plugin::JSONParser
       Fluent::Plugin.register_parser("openlineage", self)
 
       DEFAULT_SPEC_DIRECTORY="/etc/spec"
+      class BadRequestError < StandardError; end
 
       def configure(conf)
         if conf.has_key?('spec_directory')
@@ -33,28 +33,27 @@ module Fluent
       def parse(text)
         # parse JSON with default JSONParser
         super(text) { | time, json |
-          validate_openlineage(json)
-          yield time, json
+        validate_openlineage(json)
+        yield time, json
         }
       end
 
       private
-
       # Check if json contains null values in paths
       def contains_null_values?(json, paths)
         validate_required_fields(json)
         paths.any? { |path| json.dig(*path.split('/')) == nil }
       end
+
       # Check if json contains required fields
       def validate_required_fields(json)
-        # producer and schemaURL have been left out as they are not required for this moment
         required_fields = ["eventTime", "eventType", "run", "job"]
         missing_fields = required_fields.select do |field|
           value = json[field]
           value.nil? || value.empty?
         end
-        unless missing_fields.empty?
-          raise ParserError, "Openlineage validation failed: invalid json provided", 422
+        unless missing_fields.empty? || missing_fields.nil?
+          raise BadRequestError, "Openlineage validation failed: missing required fields: #{missing_fields.join(", ")}"
         end
       end
 
@@ -62,16 +61,13 @@ module Fluent
         if json == nil
           raise ParserError, "Openlineage validation failed: invalid json provided"
         end
-
         # Check if json contains required fields
         if contains_null_values?(json, ["RunEvent", "DatasetEvent", "JobEvent"])
           return
         end
-
         # https://github.com/driv3r/rusty_json_schema
         # Rust json parser ported to ruby that supports Draft 2020-12
         errors = @validator.validate(json)
-
         if errors.join(", ").include? "is not valid under any of the given schemas"
           errors = enrich_oneOf_errors(json)
         end
@@ -85,120 +81,116 @@ module Fluent
       def enrich_oneOf_errors(json)
         errors = []
         @schema["oneOf"].each { |ref|
-          changed_schema = Marshal.load(Marshal.dump(@schema))
-          changed_schema.delete("oneOf")
-          changed_schema["$ref"] = ref["$ref"]
-          validator = RustyJSONSchema.build(changed_schema)
-          error = validator.validate(json)
-          if !error.empty?
-            errors.append("#{ref}: #{error.join(", ")}")
-          end
-        }
-        return errors
-      end
-
-      def load_schema()
-        schemaFile = @spec_directory + "OpenLineage.json"
-
-        if (not File.exist?(schemaFile))
-          raise ParserError, "Couldn't find Openlineage.json file within a defined spec directory: " + schemaFile
+        changed_schema = Marshal.load(Marshal.dump(@schema))
+        changed_schema.delete("oneOf")
+        changed_schema["$ref"] = ref["$ref"]
+        validator = RustyJSONSchema.build(changed_schema)
+        error = validator.validate(json)
+        if !error.empty?
+          errors.append("#{ref}: #{error.join(", ")}")
         end
+      }
+      return errors
+    end
 
-        schema = File.read(schemaFile)
-        schema = rewrite_schema_to_include_facets(schema)
-        return schema
+    def load_schema()
+      schemaFile = @spec_directory + "OpenLineage.json"
+      if (not File.exist?(schemaFile))
+        raise ParserError, "Couldn't find Openlineage.json file within a defined spec directory: " +
+        schemaFile
       end
-
-      # Current Openlineage schema contains references to facets' definitions stored in files
-      # in facets directory which are not valid schemas for json_schema.
-      # In this step we rewrite Openlineage schema to contain facets definitions within it
-      def rewrite_schema_to_include_facets(schema)
-        # replace all the refs in schema to local refs
-        # "facets/ColumnLineageDatasetFacet.json" -> "#/defs/ColumnLineageDatasetFacet"
-        schema = schema.gsub(
-          /"facets\/([a-zA-Z]+)\.json"/,
-          '"#/$defs/\1"'
-        )
-        schema_json = JSON.parse(schema)
-        facets_path = @spec_directory + "facets/"
-
-        
-        # list all the facets
-        Dir.glob("#{facets_path}/*.json").each { |facet_file|
-            facet_schema =  JSON.parse(
-              File.read(facet_file).gsub(
-                /"https:\/\/openlineage\.io\/spec\/\d-\d-\d\/OpenLineage\.json#\/\$defs\/([a-zA-Z]+)"/,
-                '"#/$defs/\1"'
-              )
-            )
-
-            facet_schema["properties"].each { |property, ref|
-              facet_name =  ref["$ref"]&.gsub("#/$defs/", "")
-              parents = []
-              facet_schema["$defs"][facet_name]["allOf"]&.each { |definition|
-                unless definition["$ref"].nil?
-                  parents.append(definition["$ref"].gsub("#/$defs/", ""))
-                end
-              }
-              parents.each {|parent|
-              add_ref_as_parent_property(schema_json, parent, facet_name, property)
-              }
-            }
-            # include facets' definitions within schema
-            schema_json["$defs"] = schema_json["$defs"].merge(facet_schema["$defs"])
-        }
-        return schema_json
+      schema = File.read(schemaFile)
+      schema = rewrite_schema_to_include_facets(schema)
+      return schema
+    end
+    # Current Openlineage schema contains references to facets' definitions stored in files
+    # in facets directory which are not valid schemas for json_schema.
+    
+    # In this step we rewrite Openlineage schema to contain facets definitions within it
+    def rewrite_schema_to_include_facets(schema)
+      # replace all the refs in schema to local refs
+      # "facets/ColumnLineageDatasetFacet.json" -> "#/defs/ColumnLineageDatasetFacet"
+      schema = schema.gsub(
+  /"facets\/([a-zA-Z]+)\.json"/,
+  '"#/$defs/\1"'
+      )
+      schema_json = JSON.parse(schema)
+      facets_path = @spec_directory + "facets/"
+      
+      # list all the facets
+      Dir.glob("#{facets_path}/*.json").each { |facet_file|
+      facet_schema = JSON.parse(
+      File.read(facet_file).gsub(
+  /"https:\/\/openlineage\.io\/spec\/\d-\d-\d\/OpenLineage\.json#\/\$defs\/([a-zA-Z]+)"/,
+  '"#/$defs/\1"'
+      )
+      )
+      facet_schema["properties"].each { |property, ref|
+      facet_name = ref["$ref"]&.gsub("#/$defs/", "")
+      parents = []
+      facet_schema["$defs"][facet_name]["allOf"]&.each { |definition|
+      unless definition["$ref"].nil?
+        parents.append(definition["$ref"].gsub("#/$defs/", ""))
       end
-
-      def add_ref_as_parent_property(schema, parent, facet_name, property)
-        getter = find_parent_object_getter(parent)
-        if getter.nil?
-          return
-        end
-        properties = getter.call(schema)["properties"] || {}
-        properties[property] = {"$ref" => "#/$defs/" + facet_name}
-        getter.call(schema)["properties"] = properties
+    }
+    parents.each {|parent|
+    add_ref_as_parent_property(schema_json, parent, facet_name, property)
+  }
+  }
+  # include facets' definitions within schema
+  schema_json["$defs"] = schema_json["$defs"].merge(facet_schema["$defs"])
+  }
+  return schema_json
+  end
+  def add_ref_as_parent_property(schema, parent, facet_name, property)
+    getter = find_parent_object_getter(parent)
+    if getter.nil?
+      return
+    end
+    properties = getter.call(schema)["properties"] || {}
+    properties[property] = {"$ref" => "#/$defs/" + facet_name}
+    getter.call(schema)["properties"] = properties
+  end
+  # Based on facet name find path to object facets
+  def find_parent_object_getter(parent)
+    getter = nil
+    case parent
+    when "JobFacet"
+      if @validate_job_facets
+        getter = ->(schema) { schema["$defs"]["Job"]["properties"]["facets"] }
       end
-
-      # Based on facet name find path to object facets
-      def find_parent_object_getter(parent)
-        getter = nil
-        case parent
-        when "JobFacet"
-          if @validate_job_facets
-            getter = ->(schema) { schema["$defs"]["Job"]["properties"]["facets"] }
-          end
-        when "RunFacet"
-          if @validate_run_facets
-            getter = ->(schema) { schema["$defs"]["Run"]["properties"]["facets"] }
-          end
-        when "DatasetFacet"
-          if @validate_dataset_facets
-            getter = ->(schema) { schema["$defs"]["Dataset"]["properties"]["facets"] }
-          end
-        when "OutputDatasetFacet"
-          if @validate_output_dataset_facets
-            getter = ->(schema) { schema \
-            ["$defs"] \
-            ["OutputDataset"] \
-            ["allOf"].select {|el| el.key?("type") } \
-            [0] \
-            ["properties"] \
-            ["outputFacets"] }
-          end
-        when "InputDatasetFacet"
-          if @validate_input_dataset_facets
-            getter = ->(schema) { schema \
-            ["$defs"] \
-            ["InputDataset"] \
-            ["allOf"].select {|el| el.key?("type") } \
-            [0] \
-            ["properties"] \
-            ["inputFacets"] }
-          end
-        end
-        return getter
+      
+    when "RunFacet"
+      if @validate_run_facets
+        getter = ->(schema) { schema["$defs"]["Run"]["properties"]["facets"] }
+      end
+    when "DatasetFacet"
+      if @validate_dataset_facets
+        getter = ->(schema) { schema["$defs"]["Dataset"]["properties"]["facets"] }
+      end
+    when "OutputDatasetFacet"
+      if @validate_output_dataset_facets
+        getter = ->(schema) { schema \
+        ["$defs"] \
+        ["OutputDataset"] \
+        ["allOf"].select {|el| el.key?("type") } \
+        [0] \
+        ["properties"] \
+        ["outputFacets"] }
+      end
+    when "InputDatasetFacet"
+      if @validate_input_dataset_facets
+        getter = ->(schema) { schema \
+        ["$defs"] \
+        ["InputDataset"] \
+        ["allOf"].select {|el| el.key?("type") } \
+        [0] \
+        ["properties"] \
+        ["inputFacets"] }
       end
     end
+    return getter
   end
+end
+end
 end

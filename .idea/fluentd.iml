@@ -52,7 +52,7 @@
         </excluded>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.16, ruby-3.3.3-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.17, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="certstore_c (v0.1.7, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.3.3, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cool.io (v1.8.1, ruby-3.3.3-p89) [gem]" level="application" />
@@ -111,9 +111,10 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.8.0, ruby-3.3.3-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.7.1, ruby-3.3.3-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitar (v0.9, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.7.2, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="power_assert (v2.0.3, ruby-3.3.3-p89) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v13.1.0, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="module-library">
       <library name="rake (v13.2.1) [path][gem]" type="rubylib">
         <properties>
@@ -152,6 +153,7 @@
         </excluded>
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="rusty_json_schema (v0.15.0, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="module-library">
       <library name="rusty_json_schema (v[path]) [path][gem]" type="rubylib">
         <properties>
@@ -193,6 +195,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sigdump (v0.2.5, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="strptime (v0.2.5, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="test-unit (v3.6.1, ruby-3.3.3-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thermite (v0.13.0, ruby-3.3.3-p89) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tomlrb (v1.3.0, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2024.1, ruby-3.3.3-p89) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webrick (v1.8.1, ruby-3.3.3-p89) [gem]" level="application" />

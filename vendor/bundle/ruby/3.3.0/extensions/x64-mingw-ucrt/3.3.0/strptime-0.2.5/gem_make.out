@@ -1,0 +1,24 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/strptime-0.2.5/ext/strptime
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for rb_timespec_now()... yes
+checking for rb_time_timespec_new()... yes
+checking for rb_time_utc_offset()... yes
+creating Makefile
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-4gq5je sitelibdir\=./.gem.20240813-20596-4gq5je clean
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-4gq5je sitelibdir\=./.gem.20240813-20596-4gq5je
+generating strptime-x64-mingw-ucrt.def
+compiling ruby_time.c
+compiling strftime.c
+compiling strptime.c
+linking shared-object strptime/strptime.so
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-4gq5je sitelibdir\=./.gem.20240813-20596-4gq5je install
+/usr/bin/install -c -m 0755 strptime.so ./.gem.20240813-20596-4gq5je/strptime
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/strptime-0.2.5/ext/strptime
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-4gq5je sitelibdir\=./.gem.20240813-20596-4gq5je clean

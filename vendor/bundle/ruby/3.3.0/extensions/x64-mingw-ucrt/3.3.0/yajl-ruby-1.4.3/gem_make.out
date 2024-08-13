@@ -1,0 +1,245 @@
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/ext/yajl
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-lf664r sitelibdir\=./.gem.20240813-20596-lf664r clean
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-lf664r sitelibdir\=./.gem.20240813-20596-lf664r
+generating yajl-x64-mingw-ucrt.def
+compiling yajl.c
+yajl.c: In function 'yajl_status_to_string':
+yajl.c:64:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+   64 | }
+      | ^
+yajl.c: In function 'yajl_alloc':
+yajl.c:116:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  116 | }
+      | ^
+yajl.c: In function 'yajl_reset_parser':
+yajl.c:122:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  122 | }
+      | ^
+yajl.c: In function 'yajl_free':
+yajl.c:132:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  132 | }
+      | ^
+yajl.c: In function 'yajl_parse':
+yajl.c:142:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  142 | }
+      | ^
+yajl.c: In function 'yajl_parse_complete':
+yajl.c:155:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  155 | }
+      | ^
+yajl.c: In function 'yajl_get_error':
+yajl.c:163:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  163 | }
+      | ^
+yajl.c: In function 'yajl_get_bytes_consumed':
+yajl.c:170:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  170 | }
+      | ^
+yajl.c: In function 'yajl_free_error':
+yajl.c:178:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  178 | }
+      | ^
+compiling yajl_alloc.c
+yajl_alloc.c: In function 'yajl_set_default_alloc_funcs':
+yajl_alloc.c:64:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+   64 | }
+      | ^
+compiling yajl_buf.c
+yajl_buf.c: In function 'yajl_buf_alloc':
+yajl_buf.c:149:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  149 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_free':
+yajl_buf.c:156:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  156 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_append':
+yajl_buf.c:169:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  169 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_clear':
+yajl_buf.c:177:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  177 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_data':
+yajl_buf.c:184:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  184 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_len':
+yajl_buf.c:191:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  191 | }
+      | ^
+yajl_buf.c: In function 'yajl_buf_truncate':
+yajl_buf.c:200:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  200 | }
+      | ^
+compiling yajl_encode.c
+yajl_encode.c: In function 'yajl_string_encode2':
+yajl_encode.c:135:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  135 | }
+      | ^
+yajl_encode.c: In function 'yajl_string_encode':
+yajl_encode.c:52:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+   52 | }
+      | ^
+yajl_encode.c: In function 'yajl_string_decode':
+yajl_encode.c:237:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  237 | }
+      | ^
+compiling yajl_ext.c
+In file included from C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/dosish.h:38,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby/defines.h:78,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby/ruby.h:25,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby.h:38,
+                 from yajl_ext.h:32,
+                 from yajl_ext.c:24:
+yajl_ext.c: In function 'rb_yajl_parser_parse':
+C:/Ruby33-x64/include/ruby-3.3.0/ruby/win32.h:195:14: warning: variable 'stati128' set but not used [-Wunused-but-set-variable]
+  195 | #define stat stati128
+      |              ^~~~~~~~
+yajl_ext.c:538:17: note: in expansion of macro 'stat'
+  538 |     yajl_status stat;
+      |                 ^~~~
+compiling yajl_gen.c
+yajl_gen.c:215:9: warning: "isnan" redefined
+  215 | #define isnan _isnan
+      |         ^~~~~
+In file included from yajl_gen.c:40:
+C:/Ruby33-x64/msys64/ucrt64/include/math.h:583:9: note: this is the location of the previous definition
+  583 | #define isnan(x) \
+      |         ^~~~~
+yajl_gen.c:216:9: warning: "isinf" redefined
+  216 | #define isinf !_finite
+      |         ^~~~~
+C:/Ruby33-x64/msys64/ucrt64/include/math.h:506:9: note: this is the location of the previous definition
+  506 | #define isinf(x) (fpclassify(x) == FP_INFINITE)
+      |         ^~~~~
+yajl_gen.c: In function 'yajl_gen_alloc':
+yajl_gen.c:71:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+   71 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_alloc2':
+yajl_gen.c:132:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  132 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_free':
+yajl_gen.c:139:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  139 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_integer':
+yajl_gen.c:211:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  211 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_double':
+yajl_gen.c:231:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  231 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_long':
+yajl_gen.c:261:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  261 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_number':
+yajl_gen.c:271:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  271 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_string':
+yajl_gen.c:284:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  284 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_null':
+yajl_gen.c:294:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  294 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_bool':
+yajl_gen.c:306:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  306 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_map_open':
+yajl_gen.c:319:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  319 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_map_close':
+yajl_gen.c:333:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  333 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_array_open':
+yajl_gen.c:345:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  345 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_array_close':
+yajl_gen.c:358:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  358 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_get_buf':
+yajl_gen.c:372:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  372 | }
+      | ^
+yajl_gen.c: In function 'yajl_gen_clear':
+yajl_gen.c:378:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  378 | }
+      | ^
+compiling yajl_lex.c
+yajl_lex.c: In function 'yajl_lex_alloc':
+yajl_lex.c:129:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  129 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_realloc':
+yajl_lex.c:140:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  140 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_free':
+yajl_lex.c:148:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  148 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_lex':
+yajl_lex.c:677:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  677 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_error_to_string':
+yajl_lex.c:714:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  714 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_get_error':
+yajl_lex.c:724:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  724 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_current_line':
+yajl_lex.c:729:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  729 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_current_char':
+yajl_lex.c:734:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  734 | }
+      | ^
+yajl_lex.c: In function 'yajl_lex_peek':
+yajl_lex.c:758:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  758 | }
+      | ^
+compiling yajl_parser.c
+yajl_parser.c: In function 'yajl_render_error_string':
+yajl_parser.c:126:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  126 | }
+      | ^
+yajl_parser.c: In function 'yajl_do_parse':
+yajl_parser.c:463:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+  463 | }
+      | ^
+compiling yajl_version.c
+yajl_version.c: In function 'yajl_version':
+yajl_version.c:6:1: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    6 | }
+      | ^
+linking shared-object yajl/yajl.so
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-lf664r sitelibdir\=./.gem.20240813-20596-lf664r install
+/usr/bin/install -c -m 0755 yajl.so ./.gem.20240813-20596-lf664r/yajl
+
+current directory: D:/fluent-plugin-openlineage/vendor/bundle/ruby/3.3.0/gems/yajl-ruby-1.4.3/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20240813-20596-lf664r sitelibdir\=./.gem.20240813-20596-lf664r clean

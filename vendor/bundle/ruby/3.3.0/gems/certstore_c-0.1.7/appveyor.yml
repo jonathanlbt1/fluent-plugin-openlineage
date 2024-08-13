@@ -1,0 +1,33 @@
+version: '{build}'
+
+# init:
+#   - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+
+install:
+  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+  - ruby --version
+  - gem --version
+  - bundle --version
+  - bundle install
+  - IF %ridk%==1 ridk.cmd exec bundle exec rake compile
+  - IF %ridk%==0 bundle exec rake compile -rdevkit
+build: off
+test_script:
+  # - bundle exec rake test
+  - bundle exec rake test TESTOPTS=-v
+
+# https://www.appveyor.com/docs/installed-software/#ruby
+environment:
+  matrix:
+    - ruby_version: "26-x64"
+      ridk: 1
+    - ruby_version: "26"
+      ridk: 1
+    - ruby_version: "25-x64"
+      ridk: 1
+    - ruby_version: "24-x64"
+      ridk: 1
+    - ruby_version: "23-x64"
+      ridk: 0
+    - ruby_version: "23"
+      ridk: 0
