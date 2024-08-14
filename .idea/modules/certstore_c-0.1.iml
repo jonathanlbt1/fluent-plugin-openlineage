@@ -7,5 +7,204 @@
     <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7" />
     <orderEntry type="jdk" jdkName="ruby-3.3.3-p89" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="power_assert (v2.0.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="power_assert" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3" />
+          <option name="version" value="2.0.3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/power_assert-2.0.3/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (v12.3.3) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rake" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3" />
+          <option name="version" value="12.3.3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/exe" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-12.3.3/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake-compiler (v1.2.7) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rake-compiler" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7" />
+          <option name="version" value="1.2.7" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/features" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/features" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-1.2.7/tasks" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake-compiler-dock (v0.7.2) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rake-compiler-dock" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2" />
+          <option name="version" value="0.7.2" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/build" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/build" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/bin" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/rake-compiler-dock-0.7.2/build" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="test-unit (v3.3.9) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="test-unit" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9" />
+          <option name="version" value="3.3.9" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/sample" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/lib" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/sample" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/doc" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/test" />
+          <root url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/certstore_c-0.1.7/vendor/bundle/ruby/3.3.0/gems/test-unit-3.3.9/sample" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.16, ruby-3.3.3-p89) [gem]" level="application" />
   </component>
 </module>

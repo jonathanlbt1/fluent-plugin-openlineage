@@ -47,7 +47,7 @@ module Fluent
 
       # Check if json contains required fields
       def validate_required_fields(json)
-        required_fields = ["eventTime", "eventType", "run", "job"]
+        required_fields = ["eventTime", "eventType", "run", "job", "producer"]
         missing_fields = required_fields.select do |field|
           value = json[field]
           value.nil? || value.empty?
