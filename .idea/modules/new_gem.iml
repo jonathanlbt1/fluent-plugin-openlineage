@@ -7,5 +7,6 @@
     <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/3.3.0/gems/fluentd-1.17.0-x64-mingw-ucrt/templates/new_gem" />
     <orderEntry type="jdk" jdkName="ruby-3.3.3-p89" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.17, ruby-3.3.3-p89) [gem]" level="application" />
   </component>
 </module>
