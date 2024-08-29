@@ -1,5 +1,5 @@
 # Fluent-plugin-nuopenlineage-light, a plugin for [Fluentd](https://www.fluentd.org)
-[![Gem Version](https://badge.fury.io/rb/fluent-plugin-openlineage.svg)](https://badge.fury.io/rb/fluent-plugin-openlineage)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-nuopenlineage-light.svg)](https://badge.fury.io/rb/fluent-plugin-nuopenlineage-light)
 
 fluent-plugin-openlineage-light is a Fluentd plugin that verifies if a JSON matches the OpenLineage schema, but doesn't go deeper into the verification. This plugin is ideal for companies that have recently joined the lineage idea but haven't been able to apply all of its feature yet. 
 It is intended to be used together with a [Fluentd Application](https://github.com/fluent/fluentd).
