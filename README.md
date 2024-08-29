@@ -1,7 +1,7 @@
-# Fluent-plugin-openlineage-light, a plugin for [Fluentd](https://www.fluentd.org)
-[![Gem Version](https://badge.fury.io/rb/fluent-plugin-openlineage.svg)](https://badge.fury.io/rb/fluent-plugin-openlineage)
+# Fluent-plugin-nuopenlineage-light, a plugin for [Fluentd](https://www.fluentd.org)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-nuopenlineage-light.svg)](https://badge.fury.io/rb/fluent-plugin-nuopenlineage-light)
 
-fluent-plugin-openlineage-light is a Fluentd plugin that verifies if a JSON matches the OpenLineage schema, but doesn't go deeper into the verification. This plugin is ideal for companies that have recently joined the lineage idea but haven't been able to apply all of its feature yet. 
+fluent-plugin-nuopenlineage-light is a Fluentd plugin designed to validate whether a JSON document conforms to the OpenLineage schema. It performs basic validation without extensive verification, making it an ideal solution for Nubank, which has recently adopted the lineage concept and is in the process of fully leveraging lineage events.
 It is intended to be used together with a [Fluentd Application](https://github.com/fluent/fluentd).
 
 ## Requirements
@@ -17,7 +17,7 @@ It is intended to be used together with a [Fluentd Application](https://github.c
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'fluent-plugin-openlineage-light'
+gem 'fluent-plugin-nuopenlineage-light'
 ```
 
 And then execute:
@@ -26,16 +26,16 @@ And then execute:
 
 Or install it yourself using one of the following:
 
-    $ gem install fluent-plugin-openlineage-light
+    $ gem install fluent-plugin-nuopenlineage-light
 
-    $ fluent-gem install fluent-plugin-openlineage-light
+    $ fluent-gem install fluent-plugin-nuopenlineage-light
 
 ## Usage
 
-fluentd-plugin-openlineage-light include only one plugin.
+fluentd-plugin-nuopenlineage-light include only one plugin.
 
 - `openlineage` parse plugin
 
 
 
-For any additional information, you can check out Fluentd official documentation on https://docs.fluentd.org/monitoring-fluentd/monitoring-prometheus#example-prometheus-queries# fluentd-openlineage-parser
+For any additional information, you can check out Fluentd official documentation on https://docs.fluentd.org/ 
